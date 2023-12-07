@@ -1,0 +1,165 @@
+.best__Combo__section {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem;
+  /* height: calc(100vh - 20vh); */
+}
+.best__Combo__container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.best__Combo__title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.best__Combo__container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.best__Combo__Card__Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 0 1rem;
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.best__Combo__img__Container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  border-radius: 10px;
+}
+.best__Combo__img {
+  height: 300px;
+  width: 300px;
+}
+.best__combo__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 7px;
+}
+.combo__name {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.combo__price {
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-weight: bold;
+}
+.old__price {
+  text-decoration: line-through;
+  color: #ff0000;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 0.8rem;
+}
+.best__combo__cart__btn {
+  background-color: #000000;
+  border: none;
+  border-radius: 2px;
+  padding: 1rem 2rem;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.best__combo__cart__btn:hover {
+  background-color: #fff;
+  color: #000000;
+  transition: 0.5s;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.411);
+}
+
+/* Responsive for all devices */
+
+/* 480px */
+@media screen and (max-width: 480px) {
+  .best__Combo__container2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+  .best__Combo__Card__Container {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/* 768px */
+@media screen and (max-width: 768px) {
+  .best__Combo__section {
+    padding: 1rem;
+  }
+  .best__Combo__container2 {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+  }
+}
+
+/* 1080px */
+@media screen and (max-width: 1080px) {
+  .best__Combo__section {
+    padding: 1.5rem; 
+  }
+
+  .best__Combo__title {
+    font-size: 2rem; 
+  }
+
+  .best__Combo__Card__Container {
+    width: 250px; 
+    height: 350px; 
+    margin: 0.5rem; 
+  }
+
+  .best__Combo__img__Container {
+    height: 300px; 
+  }
+
+  .combo__name {
+    font-size: 1.2rem; 
+  }
+
+  .combo__price {
+    font-size: 1.2rem; 
+  }
+
+  .old__price {
+    font-size: 1rem; 
+  }
+
+  .best__combo__cart__btn {
+    padding: 1rem 2rem; 
+    font-size: 1rem;
+  }
+}
+
+/* 1280px */
+@media screen and (max-width: 1280px) {
+ 
+}

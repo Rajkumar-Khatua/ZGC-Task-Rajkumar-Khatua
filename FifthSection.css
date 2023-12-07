@@ -1,0 +1,91 @@
+.special__Perfume {
+    padding-top: 1.5rem;
+    background-image: url("./public/images/specailPerfume.png");
+    background-position: center;
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: first baseline;
+    align-items: center;
+    height: calc(100vh - 30vh);
+    margin-top: 2.5rem;
+  }
+  
+  .special__section__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 1.5rem;
+  }
+  
+  .special__perfume__title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 1.3rem;
+  }
+  .special__perfume__sub_heading {
+    font-size: 1.2rem;
+    font-weight: 700;
+    width: 600px;
+  }
+  .special__perfume__desc {
+    font-size: 1rem;
+    font-weight: 400;
+    width: 600px;
+  }
+
+  /* Responsive for all devices */
+  @media screen and (max-width: 768px) {
+    .special__Perfume {
+      height: calc(100vh - 30vh);
+    }
+    .special__section__container {
+      padding: 1rem;
+    }
+    .special__perfume__title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1.3rem;
+    }
+    .special__perfume__sub_heading {
+      font-size: 1rem;
+      font-weight: 700;
+      width: 300px;
+    }
+    .special__perfume__desc {
+      font-size: 0.8rem;
+      font-weight: 400;
+      width: 300px;
+    }
+  }
+  @media screen and (max-width: 1280px) {
+    .special__Perfume {
+      justify-content: center; /* Center content for screens up to 1280px */
+      align-items: center; /* Center content for screens up to 1280px */
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .special__Perfume {
+      height: 100%;
+    }
+    .special__section__container {
+      padding: 1rem;
+    }
+    .special__perfume__title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-bottom: 1.3rem;
+    }
+    .special__perfume__sub_heading {
+      font-size: 1rem;
+      font-weight: 700;
+      width: 300px;
+    }
+    .special__perfume__desc {
+      font-size: 0.8rem;
+      font-weight: 400;
+      width: 300px;
+    }
+  }

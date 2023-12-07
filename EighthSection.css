@@ -1,0 +1,94 @@
+.influencer__section {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem;
+    /* height: calc(100vh - 20vh); */
+  }
+  .influencer__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .influencer__top__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .influencer__title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .influencer__botton__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+  .influencers_images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    gap: 1rem;
+  }
+  .first__influencer__img {
+  }
+  .influencers__img {
+    object-fit: cover;
+  }
+  .influencers__img:hover {
+    transform: scale(0.9);
+    transition: 0.5s;
+  }
+  /* Responsive design */
+  /* 768px */
+@media screen and (max-width: 768px) {
+  .influencer__section {
+    padding: 1rem; /* Adjusted padding for smaller screens */
+  }
+
+  .influencer__container {
+    gap: 30px; /* Adjusted gap for smaller screens */
+  }
+
+  .influencer__title {
+    font-size: 1.5rem; /* Adjusted font size for smaller screens */
+  }
+  .influencer__botton__container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .influencers_images {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+  .influencers_images {
+    gap: 0.5rem; /* Adjusted gap for smaller screens */
+  }
+}
+
+/* 1080px */
+@media screen and (max-width: 1080px) {
+  .influencer__section {
+    padding: 1.5rem; /* Adjusted padding for screens up to 1080px */
+  }
+
+  .influencer__container {
+    gap: 40px; /* Adjusted gap for screens up to 1080px */
+  }
+
+  .influencer__title {
+    font-size: 2rem; /* Adjusted font size for screens up to 1080px */
+  }
+}

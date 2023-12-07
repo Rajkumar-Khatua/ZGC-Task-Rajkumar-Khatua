@@ -1,0 +1,68 @@
+.YT__Reviews {
+    margin-top: 5rem;
+    gap: 2rem;
+    padding-bottom: 2rem;
+  }
+  .YT__Review__Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+  }
+  .YT__Top__Review__Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .Yt__Review__Title {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+  .YT__Bottom__Review__Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  .YT__Bottom__Review__Images__Container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  .YT__img {
+    height: 280px;
+    width: fit-content;
+    object-fit: cover;
+  }
+
+  /* Responsive design for 768px */
+@media screen and (max-width: 768px) {
+  .YT__Review__Container {
+    padding: 0 1rem; /* Adjusted padding for smaller screens */
+  }
+
+  .YT__img {
+    width: 100%; /* Set the width to 100% for smaller screens */
+    height: auto;
+  }
+
+  .YT__Top__Review__Container {
+    flex-direction: column; /* Stack items in a column for smaller screens */
+    gap: 10px; /* Adjusted gap for smaller screens */
+  }
+
+  .YT__Bottom__Review__Container {
+    flex-direction: column; /* Stack items in a column for smaller screens */
+    gap: 10px; /* Adjusted gap for smaller screens */
+  }
+
+  .YT__Bottom__Review__Images__Container {
+    gap: 10px; /* Adjusted gap for smaller screens */
+  }
+}
